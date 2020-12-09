@@ -1,0 +1,358 @@
+body{
+    display: block;
+    position: relative;
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+}
+
+header .logo{
+    position: absolute;
+    top: 32px;
+    left: 300px;
+    width: 210px;
+    height: auto;
+}
+
+header .logo svg{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+header .logo svg g .fill-white{
+    fill: white;
+}
+
+header .nav{
+    position: absolute;
+    top: 38px;
+    width: 600px;
+    left: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    color: white;
+}
+
+header .shopBurger{
+    position: relative;
+    top: 38px;
+    left: 1700px;
+    color: white;
+    width: 200px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header .shopBurger button{
+    height: 16px;
+    width: 16px;
+    z-index: 1;
+    background-color: transparent;
+    border: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header .shopBurger button div{
+    height: 2px;
+    width: 16px;
+    background-color: white;
+}
+
+
+.upcomingTest{
+    background-image: url("https://www.spacex.com/static/images/backgrounds-new/SN8_20201110.webp");
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    height: 937px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.upcomingTest .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    display: block;
+    position: absolute;
+    bottom: 140px;
+    left: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.upcomingTest .inner #ut{
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.upcomingTest .inner #shaf{
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.upcomingTest .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+
+.recentLaunch{
+    background-image: url("https://www.spacex.com/static/images/backgrounds-new/CRS21_UCS_DSC_9620.webp");
+    background-position: center;
+    position: relative;
+    background-size: 100%;
+    height: 937px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.recentLaunch .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    display: block;
+    position: absolute;
+    bottom: 140px;
+    left: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.recentLaunch .inner #rl{
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-shadow: black 0 0 5px;
+}
+
+.recentLaunch .inner #crs{
+    font-size: 46px;
+    text-shadow: black 0 0 5px;
+}
+
+.recentLaunch .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    text-shadow: black 0 0 5px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+.crew-1{
+    background-image: url("https://www.spacex.com/static/images/crew-1/dragon-window-desktop.webp");
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    height: 937px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.crew-1 .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    position: absolute;
+    bottom: 140px;
+    left: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.crew-1 .inner #c1-m{
+    font-size: 46px;
+    margin: 0 0 20px;
+    text-shadow: black 0 0 5px;
+}
+
+.crew-1 .inner #desc1{
+    margin: 20px 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: black 0 0 5px;
+}
+
+.crew-1 .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    text-shadow: black 0 0 5px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+
+.dds{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/iss_game.webp");
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    height: 937px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.dds .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    position: absolute;
+    bottom: 140px;
+    left: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.dds .inner #dds{
+    font-size: 45px;
+}
+
+.dds .inner #desc2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 20px 0 15px;
+}
+
+.dds .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    text-shadow: black 0 0 5px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+
+.starship{
+    background-image: url("https://www.spacex.com/static/images/crew-1/SN8.webp");
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    height: 937px;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.starship .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.starship .inner #ss{
+    font-size: 46px;
+}
+
+.starship .inner #desc3{
+    margin: 20px 0 15px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.starship .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    text-shadow: black 0 0 5px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+
+.lunarStarship{
+    background-image: url("https://www.spacex.com/static/images/backgrounds/home_moon.webp");
+    background-position: center;
+    background-size: auto 937px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 937px;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.lunarStarship .inner{
+    font-weight: 600;
+    color: white;
+    width: 420px;
+    position: absolute;
+    top: 140px;
+    right: 300px;
+    font-family: D-DIN-Bold, Arial, Verdana;
+}
+
+.lunarStarship .inner #date{
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.lunarStarship .inner #nslos{
+    font-size: 46px;
+}
+
+.lunarStarship .inner #desc4{
+    font-size: 20px;
+    margin: 20px 0 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.lunarStarship .inner button{
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    text-shadow: black 0 0 5px;
+    margin: 30px 0 0;
+    width: 164px;
+    height: 54px;
+    padding: auto;
+}
+
+footer{
+    height: 75px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
